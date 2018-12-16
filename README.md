@@ -2,6 +2,18 @@
 ## Dokumentasi
 
 Dalam API yang saya buat terdiri dari 2 endpoint GET dan 2 endpoint POST sesuai deskripsi.
+
+## Instalasi
+
+Dalam API yang saya buat terdiri dari 2 endpoint GET dan 2 endpoint POST sesuai deskripsi.
+
+    - pull {project}
+    - taruh pada directory "$GOPATH/*****/*****/scr/
+    - install package2 nya 
+        $ go get -u "naama-package"
+        $ go install
+    - jalankan dengan
+        $go run main/base.go
     
 ## EndPoint utama
 
@@ -19,4 +31,4 @@ pada pengerjaan API ini saya menggunakan beberapa library/package tambahan berup
     - "github.com/jinzhu/gorm/dialects/mysql"
 
 ## **NOTE
-masih banyak error dalam pengerjaanya. karna memang ada beberapa kendala teknis dan dalam tahap belajar juga. terimakasih
+masih banyak error dalam pengerjaanya. beberapa endpoint belum bisa sesuai dan belum ada authentikasinya juga. karna memang ada beberapa kendala teknis dan dalam tahap belajar juga. terimakasih
